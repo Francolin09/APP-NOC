@@ -13,8 +13,11 @@ MAILER_SECRET_KEY=
 
 PROD=false
 ```
+De todas formas se deja adjunto un template con todas las variables de entorno necesarias.
+
 3. Ejecutar el comando ```npm install```
-4. Ejecutar ```npm run dev```
+4. Levantar bases de datos con ```docker compose up -d```
+5. Ejecutar ```npm run dev```
 
 
 ## Obtener Gmail Key
