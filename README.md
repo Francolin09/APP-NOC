@@ -17,7 +17,8 @@ De todas formas se deja adjunto un template con todas las variables de entorno n
 
 3. Ejecutar el comando ```npm install```
 4. Levantar bases de datos con ```docker compose up -d```
-5. Ejecutar ```npm run dev```
+5. Ejecutar el comando ```npx prisma migrate dev ```
+6. Ejecutar ```npm run dev```
 
 
 ## Obtener Gmail Key
